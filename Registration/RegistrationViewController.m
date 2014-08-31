@@ -57,9 +57,15 @@
     
     
     
+
+    NSString *url = [NSString stringWithFormat:@"http://deshpande.net.nz/Registration.php?F_Name='%@'&L_Name='%@'&Email='%@'&Username='%@'&Password='%@'",[self.F_Name_Text text],[self.L_Name_Text text],[self.Email_Text text], [self.Username_Text text],[self.Password_Text text]];
+    //NSString *str1 =@"http://deshpande.net.nz/Registration.php?F_Name=";
+    //NSString *str3 =[str1 stringByAppendingString:str2];
+    //NSString *str2 = [NSString stringWithFormat:@"%@",[self.F_Name_Text text]];
+    //NSString *str3 =[str1 stringByAppendingString:str2];
+    //NSString *str4
+    //NSLog(@"str3:%@",str3);
     
-    NSString *url = [NSString stringWithFormat:@"http://deshpande.net.nz/Registration.php?F_Name=%@&L_Name=%@&Email=%@&Username=%@&Password=%@",[self.F_Name_Text text],[self.L_Name_Text text],[self.Email_Text text], [self.Username_Text text],[self.Password_Text text]];
-   
     
     NSLog(@"URL: %@", url);
         // build the request
