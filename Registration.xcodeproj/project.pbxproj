@@ -22,6 +22,15 @@
 		E83655E919A947690099493F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E83655C819A947690099493F /* UIKit.framework */; };
 		E83655F119A947690099493F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E83655EF19A947690099493F /* InfoPlist.strings */; };
 		E83655F319A947690099493F /* RegistrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E83655F219A947690099493F /* RegistrationTests.m */; };
+		E83655FE19A9481F0099493F /* NoticesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E83655FD19A9481F0099493F /* NoticesViewController.m */; };
+		E836560119A9495D0099493F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E836560019A9495D0099493F /* LoginViewController.m */; };
+		E836560719A957850099493F /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E836560619A957850099493F /* RegistrationViewController.m */; };
+		E836561219A95B2D0099493F /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E836560919A95B2D0099493F /* HomeModel.m */; };
+		E836561319A95B2D0099493F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = E836560B19A95B2D0099493F /* User.m */; };
+		E836561419A95B2D0099493F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E836560D19A95B2D0099493F /* DetailViewController.m */; };
+		E836561519A95B2D0099493F /* GetSubjects.m in Sources */ = {isa = PBXBuildFile; fileRef = E836560F19A95B2D0099493F /* GetSubjects.m */; };
+		E836561619A95B2D0099493F /* subject.m in Sources */ = {isa = PBXBuildFile; fileRef = E836561119A95B2D0099493F /* subject.m */; };
+		E836561919A95B510099493F /* NamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E836561819A95B510099493F /* NamesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +64,24 @@
 		E83655EE19A947690099493F /* RegistrationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RegistrationTests-Info.plist"; sourceTree = "<group>"; };
 		E83655F019A947690099493F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E83655F219A947690099493F /* RegistrationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistrationTests.m; sourceTree = "<group>"; };
+		E83655FC19A9481F0099493F /* NoticesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoticesViewController.h; path = ../../RevisionOfAttempt4/RevisionOfAttempt4/NoticesViewController.h; sourceTree = "<group>"; };
+		E83655FD19A9481F0099493F /* NoticesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoticesViewController.m; path = ../../RevisionOfAttempt4/RevisionOfAttempt4/NoticesViewController.m; sourceTree = "<group>"; };
+		E83655FF19A9495D0099493F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E836560019A9495D0099493F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		E836560519A957850099493F /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		E836560619A957850099493F /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		E836560819A95B2D0099493F /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeModel.h; path = "../../../../Downloads/mySubs-master/Views2/HomeModel.h"; sourceTree = "<group>"; };
+		E836560919A95B2D0099493F /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeModel.m; path = "../../../../Downloads/mySubs-master/Views2/HomeModel.m"; sourceTree = "<group>"; };
+		E836560A19A95B2D0099493F /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = "../../../../Downloads/mySubs-master/Views2/User.h"; sourceTree = "<group>"; };
+		E836560B19A95B2D0099493F /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = "../../../../Downloads/mySubs-master/Views2/User.m"; sourceTree = "<group>"; };
+		E836560C19A95B2D0099493F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = "../../../../Downloads/mySubs-master/Views2/DetailViewController.h"; sourceTree = "<group>"; };
+		E836560D19A95B2D0099493F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = "../../../../Downloads/mySubs-master/Views2/DetailViewController.m"; sourceTree = "<group>"; };
+		E836560E19A95B2D0099493F /* GetSubjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetSubjects.h; path = "../../../../Downloads/mySubs-master/Views2/GetSubjects.h"; sourceTree = "<group>"; };
+		E836560F19A95B2D0099493F /* GetSubjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetSubjects.m; path = "../../../../Downloads/mySubs-master/Views2/GetSubjects.m"; sourceTree = "<group>"; };
+		E836561019A95B2D0099493F /* subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = subject.h; path = "../../../../Downloads/mySubs-master/Views2/subject.h"; sourceTree = "<group>"; };
+		E836561119A95B2D0099493F /* subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = subject.m; path = "../../../../Downloads/mySubs-master/Views2/subject.m"; sourceTree = "<group>"; };
+		E836561719A95B510099493F /* NamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamesViewController.h; sourceTree = "<group>"; };
+		E836561819A95B510099493F /* NamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +147,24 @@
 				E83655D919A947690099493F /* Main_iPad.storyboard */,
 				E83655DC19A947690099493F /* ViewController.h */,
 				E83655DD19A947690099493F /* ViewController.m */,
+				E83655FD19A9481F0099493F /* NoticesViewController.m */,
+				E83655FC19A9481F0099493F /* NoticesViewController.h */,
+				E83655FF19A9495D0099493F /* LoginViewController.h */,
+				E836560019A9495D0099493F /* LoginViewController.m */,
+				E836560519A957850099493F /* RegistrationViewController.h */,
+				E836560619A957850099493F /* RegistrationViewController.m */,
+				E836560819A95B2D0099493F /* HomeModel.h */,
+				E836560919A95B2D0099493F /* HomeModel.m */,
+				E836560A19A95B2D0099493F /* User.h */,
+				E836560B19A95B2D0099493F /* User.m */,
+				E836560C19A95B2D0099493F /* DetailViewController.h */,
+				E836560D19A95B2D0099493F /* DetailViewController.m */,
+				E836560E19A95B2D0099493F /* GetSubjects.h */,
+				E836560F19A95B2D0099493F /* GetSubjects.m */,
+				E836561019A95B2D0099493F /* subject.h */,
+				E836561119A95B2D0099493F /* subject.m */,
+				E836561719A95B510099493F /* NamesViewController.h */,
+				E836561819A95B510099493F /* NamesViewController.m */,
 				E83655DF19A947690099493F /* Images.xcassets */,
 				E83655CB19A947690099493F /* Supporting Files */,
 			);
@@ -253,9 +298,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E836561319A95B2D0099493F /* User.m in Sources */,
+				E836561519A95B2D0099493F /* GetSubjects.m in Sources */,
 				E83655DE19A947690099493F /* ViewController.m in Sources */,
+				E836561619A95B2D0099493F /* subject.m in Sources */,
+				E836561419A95B2D0099493F /* DetailViewController.m in Sources */,
+				E836560719A957850099493F /* RegistrationViewController.m in Sources */,
 				E83655D519A947690099493F /* AppDelegate.m in Sources */,
+				E836561919A95B510099493F /* NamesViewController.m in Sources */,
+				E83655FE19A9481F0099493F /* NoticesViewController.m in Sources */,
 				E83655D119A947690099493F /* main.m in Sources */,
+				E836561219A95B2D0099493F /* HomeModel.m in Sources */,
+				E836560119A9495D0099493F /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
