@@ -58,7 +58,7 @@
             NSString *post =[[NSString alloc] initWithFormat:@"username=%@&password=%@",[self.Username_Login text],[self.Password_Login text]];
             NSLog(@"PostData: %@",post);
             
-            NSURL *url=[NSURL URLWithString:@"http://deshpande.net.nz/login.php"];
+            NSURL *url=[NSURL URLWithString:@"http://deshpande.net.nz/login1.php"];
             
             NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
             
