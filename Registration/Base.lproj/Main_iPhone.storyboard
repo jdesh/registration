@@ -127,6 +127,7 @@
                     <connections>
                         <outlet property="Password_Login" destination="DGF-b6-ugw" id="chM-2N-SEq"/>
                         <outlet property="Username_Login" destination="X02-Tj-KpY" id="l5j-EG-jwa"/>
+                        <segue destination="g9z-i9-Juu" kind="push" identifier="login_success" id="Tmu-5f-Z29"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZPu-qR-72A" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -383,4 +384,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="Tmu-5f-Z29"/>
+    </inferredMetricsTieBreakers>
 </document>
